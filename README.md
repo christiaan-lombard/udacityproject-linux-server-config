@@ -2,7 +2,6 @@
 
 This is my project submission for the Udacity Fullstack Developer Nanodegree, Deployment Module, Linux Server Configuration.
 
-
 Project is deployed on [Digitalocean](https://www.digitalocean.com/)
 
  - Hostname: audacious-barnacle
@@ -10,23 +9,30 @@ Project is deployed on [Digitalocean](https://www.digitalocean.com/)
  - SSH Port: 2200
  - Catalog Project URL: [http://catalog.pubfunc.com/](http://catalog.pubfunc.com/)
 
-## Notes
+## Configuration
 
- - [Deployment Rundown](deployment.md)
-
+See [Deployment Steps](deployment.md) for the full rundown of server configuration.
 
 ## Software Installed
 
- - apache2
- - libapache2-mod-wsgi
- - libapache2-mod-wsgi-py3
- - postgresql
  - git
+ - apache2
+ - python-setuptools
+ - python-dev
  - python-pip
-
+ - python-psycopg2
+ - libapache2-mod-wsgi
+ - postgresql
+ - postgresql-contrib
 
 ## Resources
 
+ - [DigitalOcean - How To Deploy a Flask Application on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+ - [DigitalOcean - How To Set Up an Apache, MySQL, and Python (LAMP) Server](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-apache-mysql-and-python-lamp-server-without-frameworks-on-ubuntu-14-04)
+ - [SQLAlchemy - Engine Configuration](http://docs.sqlalchemy.org/en/latest/core/engines.html)
+ - [DigitalOcean - How To Secure PostgreSQL on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-secure-postgresql-on-an-ubuntu-vps)
+ - [Stackoverflow - How to configure postgresql for the first time?](https://stackoverflow.com/questions/1471571/how-to-configure-postgresql-for-the-first-time)
+ - [Mediatemple - How do i disable ssh login for the root user?](https://mediatemple.net/community/products/dv/204643810/how-do-i-disable-ssh-login-for-the-root-user)
 
 
 ## Udacity Project Specifications
